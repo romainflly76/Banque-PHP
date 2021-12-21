@@ -1,0 +1,48 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>340</x><y>370</y><w>210</w><h>190</h></coordinates><panel_attributes>Custommer table
+--
+id: PK AI
+--
+FirstName: VARCHAR
+--
+LastName: VARCHAR
+--
+Address: VARCHAR
+--
+Postcode: INT
+--
+Country: TEXT
+--
+PHONE Nb: BIGINT
+--
+EMAIL: VARCHAR
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>20</y><w>210</w><h>190</h></coordinates><panel_attributes>Transaction table
+--
+id:  SMALLINT PK AI
+--
+TransactionNb: INT
+--
+Name: VARCHAR
+--
+Description: VARCHAR
+--
+Amount: FLOAT
+--
+Account_Nb: FK
+--
+Customer_id: FK
+--
+Date: DATE</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>20</y><w>210</w><h>190</h></coordinates><panel_attributes>Accounts Table
+--
+-id: PK AI
+--
+AccountName: VARCHAR
+--
+AccountNb: VARCHAR
+--
+Account_Amount: INT
+--
+Type: VARCHAR
+--
+Create_iD: DATE
+--
+User_iD: FK</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>50</y><w>120</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;100;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>30</y><w>30</w><h>30</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>150</y><w>30</w><h>30</h></coordinates><panel_attributes>N</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>200</y><w>70</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;50;170</additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>210</y><w>30</w><h>30</h></coordinates><panel_attributes>N</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>340</y><w>30</w><h>30</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element></diagram>

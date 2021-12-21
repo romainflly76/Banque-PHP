@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+
+#header {
+  width: 100%;
+  height: auto;
+  /* .2 = Opacity */
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo ul {
+  text-align: center;
+}
+
+.logo ul li {
+  list-style: none;
+  display: block;
+}
+
+.logo ul li a {
+  display: block;
+  text-decoration: none;
+}
+
+.logo ul li img {
+  width: 20%;
+}
+
+#header ul {
+  margin-top: 2vh;
+  text-align: center;
+}
+
+#header ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+#header ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  padding: 15px;
+  transition: all ease 0.5s;
+}
+
+/* Effet hover */
+#header ul li a:hover {
+  background-color: #2a5f77;
+}
+
+@media screen and (min-width: 400px) {
+  .logo ul li img {
+    width: 10%;
+  }
+
+  #header ul li a {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    padding: 25px;
+  }
+}
