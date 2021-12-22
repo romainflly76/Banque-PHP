@@ -15,7 +15,7 @@
 
                     <div id="visuelHeader" class="carousel-caption"
                         style="margin-bottom: 10vh; background-color: rgba(42, 95, 119, 0.7); border-radius: 0.7em;">
-                        <h1 class="display-4">Protejez votre famille et votre patrimoine!</h1>
+                        <h1 class="display-4">Protégez votre famille et votre patrimoine!</h1>
                         <p class="lead">Soyez paisible.</p>
                         <hr class="my-4">
                         <p>Prenez contact en agence avec l'un de nos conseiller.</p>
@@ -29,7 +29,7 @@
                     <img src="img/purchase-gfbb0bfc23_1920.jpg" class="d-block w-100" alt="">
                     <div id="visuelHeader" class="carousel-caption"
                         style="margin-bottom: 10vh; background-color: rgba(42, 95, 119, 0.7); border-radius: 0.7em;">
-                        <h1 class="display-4">Protejez votre famille et votre patrimoine!</h1>
+                        <h1 class="display-4">Protégez votre famille et votre patrimoine!</h1>
                         <p class="lead">Soyez paisible.</p>
                         <hr class="my-4">
                         <p>Prenez contact en agence avec l'un de nos conseiller.</p>
@@ -43,7 +43,7 @@
                     <img src="img/ecommerce-gec0154f87_1920.jpg" class="d-block w-100" alt="">
                     <div id="visuelHeader" class="carousel-caption"
                         style="margin-bottom: 10vh; background-color: rgba(0, 0, 0, 0.6); border-radius: 0.7em;">
-                        <h1 class="display-4">Protejez votre famille et votre patrimoine!</h1>
+                        <h1 class="display-4">Protégez votre famille et votre patrimoine!</h1>
                         <p class="lead">Soyez paisible.</p>
                         <hr class="my-4">
                         <p>Prenez contact en agence avec l'un de nos conseiller.</p>
