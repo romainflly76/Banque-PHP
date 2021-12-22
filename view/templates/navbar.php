@@ -89,7 +89,7 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="actualites.php">Actualités</a>
                             </li>
-                            <li><a class="btn text-white" style="background-color: #2a5f77;" href="login.php">LOG
+                            <li><a class="btn text-white" style="background-color: #2a5f77;" href="connexion.php">LOG
                                     IN</a></li>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                         <li><a href="moncomptebancaire.php">Mon Compte</a></li>
                         <li><a href="Statistiques.php">Statistique</a></li>
                         <li><a href="actualites.php">Actualités</a></li>
-                        <li><a class="btn" style="background-color: #2a5f77;" href="login.html">LOG IN</a></li>
+                        <li><a class="btn" style="background-color: #2a5f77;" href="connexion.php">LOG IN</a></li>
                     </ul>
                 </div>
             </nav>
