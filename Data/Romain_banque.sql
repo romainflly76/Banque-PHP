@@ -26,7 +26,7 @@ ENGINE=InnoDB;
 INSERT INTO Customer(lastname, firstname, email, city, city_code, adress, sex, password, birth_date)
 VALUES
 ("Leboiteux", "Romain", "romain.leboiteux@gmail.com", "Préaux", "76160", "171 rue Anthime renard", "h", "password1", "1980-06-01"),
-("Fortier", "Annick", "AnnickFortier@outlook.com", "Bihorel", "76420", "ru ede l'argiliere", "f", "password2", "1959-11-14");
+("Fortier", "Annick", "AnnickFortier@outlook.com", "Bihorel", "76420", "rue de l'argiliere", "f", "password2", "1959-11-14");
 
 CREATE TABLE Account(
   id INT UNSIGNED NOT NULL AUTO_INCREMENT,

@@ -39,22 +39,12 @@ include "view/divider.php";
                                                     placeholder="Entrez votre mot de passe" /><small></small>
                                                 <label class="form-label" for="password"></label>
                                             </div>
-
+                                            <hr class="my-4">
                                             <div class="pt-1 mb-4">
                                             <button class="btn btn-lg btn text-white w-100"
-                                                    style="background-color: #9A616D;" type="submit">Login</button>
+                                                    style="background-color: #9A616D;" type="submit" name="submit">Login</button>
                                             </div>
 
-                                            <hr class="my-4">
-
-                                            <button class="btn btn-lg btn-block w-100 text-white"
-                                                style="background-color: #dd4b39;" type="submit"><i
-                                                    class="fab fa-google me-2"></i> Connexion avec votre compte
-                                                Google</button>
-                                                <button class="btn btn-lg btn-block mb-2 mt-2 w-100 text-white"
-                                                style="background-color: #3b5998;" type="submit"><i
-                                                    class="fab fa-facebook-f me-2"></i>Connexion avec votre compte
-                                                Facebook</button>
                                         </form>
 
                                     </div>
